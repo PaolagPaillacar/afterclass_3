@@ -1,0 +1,40 @@
+/* SELECTOR DE TIPO DE ETIQUITA */
+h1{
+   color: palevioletred;
+}
+/* SELECYOT DE TIPO CLASE */
+p{
+    color: green;
+}
+
+.naranja{
+    color: orange;
+    background-color: burlywood;
+}
+
+.bold{
+    font-weight: bold;
+}
+/* un parrafo con clase naranja */
+p.naranja{
+    font-size: 16px;
+}
+
+ol .pan{
+    color: fuchsia;
+}
+
+
+/* selector de tipo id */
+#amarillo{
+    background-color: fuchsia;
+}
+
+/* escalas */
+p{
+    color: green;
+
+}
+.parrafo{
+    color: blueviolet;
+}

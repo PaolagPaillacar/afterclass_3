@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+
+    <!-- crear listas -->
+    <!-- unordered list // lista no ordenas  -->
+    <!-- anchor |  -->
+    <ul>
+        <li><a href="../index.html">Multimedia</a></li>
+        <li><a href="./paginas/formulario.html">Formulario</a></li>
+        <li><a href="./paginas/tablas.html">Tablas</a></li>
+    </ul>
+
+    <!-- form/formulario -->
+    <form action="?" method="get">
+        <label>nombre completo</label>
+        <br>
+        <input type="text" placeholder="nombre completo" name="identidad">
+        <br><br>
+        <label>edad</label>
+        <br>
+        <input type="number" min="0" max="99" placeholder="edad">
+        <br><br>
+        <label>Email (*)</label>
+        <br>
+        <input type="Email" required name="email">
+        <br><br>
+        <!-- despegable -->
+        <input type="submit">
+        <br><br>
+        <select name="paises">
+            <option value="AR">Large</option>
+            <option value="CL">Medium</option>
+            <option value="PE">Small</option>
+            <option value="ve">Small</option>
+        </select>
+        <br><br>
+        <!-- radio -->
+        <label>blanco</label>
+        <input type="radio" name="color" value="blanco" />
+        <label>negro</label>
+        <input type="radio" name="color" value="negro" />
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

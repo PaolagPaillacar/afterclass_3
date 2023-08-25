@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "nunito";
+    src: url('../recursos/fonts/Nunito-Light.ttf');
+}
+
+/* tipografia web */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+.grilla-explicitas{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 50px 130px;
+
+}
+
+.grilla-explicitas div{
+    background-color: rgba(183, 183, 42, 0.826);
+    border: 1px solid rgba(128, 128, 128, 0.677);
+    margin: 2px;
+
+}
+
+.grilla-area{
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "uno dos dos tres"
+    "cuatro cinco seis seis"
+    "cuatro siete ocho nueve"
+    ;
+grid-template-rows: repeat(3, 200px);
+}
+
+.grilla-area div{
+    background-color: rgb(67, 154, 67);
+    border: 1px solid azure;
+    margin: 2px;
+
+}
+.uno{
+    grid-area: uno;
+
+}
+
+.dos{
+    grid-area: dos;
+}
+
+.tres{
+    grid-area: tres;
+}
+
+.cuatro{
+    grid-area: cuatro;
+}
+
+.cinco{
+    grid-area: cinco;
+
+}
+
+.seis{
+    grid-area: seis
+    ;
+}
+
+
+
+
+

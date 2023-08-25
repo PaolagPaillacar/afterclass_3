@@ -1,0 +1,128 @@
+* {
+        margin: 0;
+        padding: 0;
+}
+
+.header {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        padding: 30px 0;
+        max-width: 700px;
+
+}
+
+.header img {
+        width: 250px;
+
+}
+
+.nav {
+        text-transform: uppercase;
+        padding: 20px;
+}
+
+.nav ul {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+}
+
+.nav li {
+        margin: 0 20px;
+}
+
+.nav a {
+        color: rgb(199, 51, 51);
+        text-decoration: none;
+}
+
+#main-index {
+        font-family: sans-serif;
+        max-width: 1050px;
+        margin: auto;
+
+
+        display: grid;
+        grid-template-columns: 900px ;
+        grid-template-areas:
+                "titular banana"
+                "noticia banana"
+                "noticia ."
+                "noticia .";
+}
+
+.titular{
+        grid-area: titular;
+
+}
+.aside{
+        grid-area: banana;
+}
+.noticia{
+        grid-area: noticia;
+}
+
+
+#main-index h1 {
+        margin: 20px 0
+}
+
+#main-index .categoria {
+        background-color: red;
+        color: white;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 10px;
+        display: inline;
+        padding: 5px 10px;
+        border-radius: 5px;
+
+}
+
+#main-index img {
+        margin: 30px;
+}
+
+#main-index p {
+        margin: 20px 0;
+}
+
+
+#main-index iframe {
+        margin: 20px 0;
+}
+
+.aside h1{
+        background-color: grey(48, 48, 48);
+        color: white;
+        padding: 15px;
+}
+
+.aside p{
+        margin: 30px 0;
+
+}
+
+.aside email{
+        width: 100px;
+
+}
+.footer {
+        background-color: black;
+        color: antiquewhite;
+        text-align: center;
+        padding: 20px;
+        font-family: sans-serif;
+}
+
+@media(max-width:1000px) {
+        #main-infont-family: 
+        grid-template-columns: 900px;
+        grid-template-areas
+                "titular banana"
+                "noticia banana"
+                "noticia"
+                "noticia" ;
+
+        }
